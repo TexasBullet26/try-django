@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin', # admin webpage
+    'django.contrib.admin',  # admin webpage
     'django.contrib.auth',  # creating superuser
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     # third party apps
 
     # our own apps
-
+    'products',
 ]
 
 MIDDLEWARE = [
